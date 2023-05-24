@@ -25,6 +25,7 @@ concurrency:
 defaults:
   run:
     shell: bash
+    working-directory: ${{env.working-directory}}
 
 jobs:
   # Build job
@@ -49,7 +50,6 @@ jobs:
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
-        working-directory: ${{env.working-directory}}
         env:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
