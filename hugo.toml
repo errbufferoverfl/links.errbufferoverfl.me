@@ -13,8 +13,7 @@ disableKinds = ["taxonomy", "term"]
 [author]
 name = "errbufferoverfl"
 pronouns = "(they/them)"
-headline = '''• ⚑ anarchic illustrator & printmaker • 💾 security engineer by trade • 🔥 anti-capitalist in training • 🌾 future
-subsistence farmer •'''
+headline = '''• ⚑ anarchic illustrator & printmaker • 💾 security engineer by trade • 🔥 anti-capitalist in training • 🌾 future subsistence farmer •'''
 # image = "img/author.jpg"  # path relative to static directory
 
 links = [
