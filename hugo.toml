@@ -1,0 +1,61 @@
+title = "errbufferoverfl.me"
+theme = "lynx"
+
+baseURL = "https://links.errbufferoverfl.me/"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+# copyright = "Copy, _right?_ :thinking_face:"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+name = "errbufferoverfl"
+pronouns = "(they/them)"
+headline = '''• ⚑ anarchic illustrator & printmaker • 💾 security engineer by trade • 🔥 anti-capitalist in training • 🌾 future
+subsistence farmer •'''
+# image = "img/author.jpg"  # path relative to static directory
+
+links = [
+    { ko-fi = { href = "https://ko-fi.com/errbufferoverfl", text = "Ko-Fi" } },
+    { mastodon = "https://mastodon.errbufferoverfl.me/@errbufferoverfl" },
+    { github = "https://github.com/errbufferoverfl" },
+    #{ email = "mailto:hello@your_domain.com" },
+    { link = { href = "https://errbufferoverfl.me", text = "Personal Site" } },
+    { twitter = "https://twitter.com/errbufferoverfl" },
+    # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+    # { apple = "https://www.apple.com" },
+    # { codepen = "https://codepen.io/username" },
+    # { dev = "https://dev.to/username" },
+    # { discord = "https://discord.gg/invitecode" },
+    # { dribbble = "https://dribbble.com/username" },
+    # { facebook = "https://facebook.com/username" },
+    # { flickr = "https://www.flickr.com/photos/username/" },
+    # { foursquare = "https://foursquare.com/username" },
+    # { gitlab = "https://gitlab.com/username" },
+    # { google = "https://www.google.com/" },
+    # { instagram = "https://instagram.com/username" },
+    # { keybase = "https://keybase.io/username" },
+    # { kickstarter = "https://www.kickstarter.com/profile/username" },
+    # { lastfm = "https://lastfm.com/user/username" },
+    # { linkedin = "https://linkedin.com/in/username" },
+    # { medium = "https://medium.com/username" },
+    # { microsoft = "https://www.microsoft.com/" },
+    # { patreon = "https://www.patreon.com/username" },
+    # { pinterest = "https://pinterest.com/username" },
+    # { reddit = "https://reddit.com/user/username" },
+    # { slack = "https://workspace.url/team/userid" },
+    # { snapchat = "https://snapchat.com/add/username" },
+    # { soundcloud = "https://soundcloud.com/username" },
+    # { steam = "https://steamcommunity.com/profiles/userid" },
+    # { telegram = "https://t.me/username" },
+    # { tiktok = "https://tiktok.com/@username" },
+    # { tumblr = "https://username.tumblr.com" },
+    # { twitch = "https://twitch.tv/username" },
+    # { whatsapp = "https://wa.me/phone-number" },
+    # { youtube = "https://youtube.com/username" },
+]
+
+[security.exec]
+osEnv = ['.*']
